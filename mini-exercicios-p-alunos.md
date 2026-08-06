@@ -26,8 +26,8 @@ CREATE DATABASE IF NOT EXISTS mini_imagens;
 
 > **Conceito:** MVC separa o código em três responsabilidades bem definidas:
 >
-> - **Model** → acessa o banco de dados e expõe métodos de consulta
-> - **Controller** → recebe a requisição, chama o Model e devolve a resposta
+> - **Model** → acessa o banco de dados e expõe métodos de consulta/ comunicação com o banco de dados 
+> - **Controller** → recebe a requisição, chama o Model e devolve a resposta/ nunca acessa o bd
 > - **View** → o HTML que o usuário vê, busca dados via fetch e renderiza
 >
 > Neste mini o Model já faz queries reais com `mysql2`.
