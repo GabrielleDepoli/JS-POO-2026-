@@ -1091,7 +1091,7 @@ Acesse `http://localhost:3000/login` (senha: 123):
 
 ---
 
-# MINI 3 — Upload de Imagens com Multer
+# MINI 3 — Upload de Imagens com Multer (Biblioteca para trabalhar com uploads)
 
 > **Conceito:** Na Locadora, cada veículo tem uma foto. O fluxo é: o usuário escolhe uma imagem → o frontend envia para o backend → o Multer salva o arquivo na pasta `uploads/` → o Controller salva o caminho do arquivo no banco → o frontend exibe a imagem buscando o caminho do banco.
 >
