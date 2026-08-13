@@ -38,6 +38,7 @@ class AuthController {
             req.session.perfil = dados.perfil;
 
             res.redirect('/painel');
+            
         } catch (erro) {
             console.error('Erro de login:', erro);
             res.status(500).send('Erro interno do servidor.');
